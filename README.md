@@ -2,6 +2,7 @@
 
 ```
 python -m venv geveze_env
+cd geveze_env
 source ./bin/activate
 ```
 

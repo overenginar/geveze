@@ -9,7 +9,9 @@ setuptools.setup(
     py_modules=['src.twinkle'],
     install_requires=[
         'click==8.1.3',
-        'openai==0.27.6'
+        'openai==0.27.6',
+        'python_dotenv==1.0.0',
+        'fire-0.5.0'
     ],
     entry_points={
         'console_scripts': [
